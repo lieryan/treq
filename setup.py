@@ -31,5 +31,5 @@ setup(
     description="A requests-like API built on top of twisted.web's Agent",
     license="MIT/X",
     url="http://github.com/dreid/treq",
-    long_description=file('README.rst').read()
+    long_description=open('README.rst').read()
 )
